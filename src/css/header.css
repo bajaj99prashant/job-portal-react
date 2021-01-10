@@ -1,0 +1,27 @@
+.header.container {
+  border-bottom: 0.5px solid #265a81;
+  min-width: 90%;
+}
+
+.jobs-heading > a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.jobs-heading > a > span {
+  color: #43afff;
+}
+
+.heading-right > a {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid#28699b;
+  color: #fff;
+  background: rgba(40, 55, 155, 0.3);
+  text-decoration: none;
+  transition: background 200ms ease-in-out;
+  border-radius: 4px;
+}
+
+.heading-right > a:hover {
+  background: rgba(40, 55, 155, 0.5);
+}

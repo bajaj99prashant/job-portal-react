@@ -1,0 +1,36 @@
+.external-wrapper {
+  background: #fff;
+  min-width: 300px;
+  width: 30vw;
+  /* margin: 6rem auto; */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.form-wrapper > h3,
+.form-wrapper > form {
+  width: 100%;
+}
+
+.form-wrapper > h3 {
+  font-size: 1.2rem;
+}
+
+.center-btn {
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.75rem;
+}

@@ -1,0 +1,22 @@
+label {
+  width: 100%;
+  font-size: 0.75rem;
+  padding: 4px auto;
+}
+
+label > a {
+  float: right;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  font-size: 0.75rem;
+}
+
+.half {
+  width: 48%;
+}

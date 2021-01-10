@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  background: #edf6ff;
+}
+
+body,
+#root {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "HfLight";
+  font-weight: 400;
+  src: url("../assets/fonts/hfLight.ttf");
+}
+
+@font-face {
+  font-family: "HfMed";
+  font-weight: 500;
+  src: url("../assets/fonts/hfMed.ttf");
+}
+
+@font-face {
+  font-family: "HfBold";
+  font-weight: 700;
+  src: url("../assets/fonts/hfBold.ttf");
+}
+
+h1 {
+  font-family: "HfBold";
+}
+
+div,
+h5 {
+  font-family: "HfMed";
+}
+
+p,
+a {
+  font-family: "HfLight";
+}
+
+a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,19 @@
+.logout-nav {
+  position: relative;
+}
+
+.logout {
+  background: #fff;
+  position: absolute;
+  top: 2.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.logout > button {
+  background: #fff;
+}
+
+.user-profile {
+  cursor: pointer;
+}

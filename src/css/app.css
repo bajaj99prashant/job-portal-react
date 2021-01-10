@@ -1,0 +1,46 @@
+.ful {
+  background: linear-gradient(
+    to bottom,
+    #303f60 0%,
+    #303f60 50vh,
+    #edf6ff 50vh,
+    #edf6ff 100%
+  );
+}
+
+.hal {
+  background: linear-gradient(
+    to bottom,
+    #303f60 0%,
+    #303f60 30vh,
+    #edf6ff 30vh,
+    #edf6ff 100%
+  );
+}
+
+.logout-message {
+  position: fixed;
+  background: #fff;
+  right: 4.3rem;
+  top: 5rem;
+  z-index: 500;
+  width: 300px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.logout-message > h5 {
+  color: #43afff;
+}
+
+.logout-message > p {
+  margin-bottom: 0;
+}
+
+.logout-message > button {
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

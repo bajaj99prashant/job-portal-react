@@ -1,0 +1,52 @@
+.home > .row {
+  min-height: 40vh;
+}
+
+.main-content {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.main-content > h1 {
+  /* font-size: 4rem;
+  font-family: "HfMed"; */
+  line-height: 1.2;
+  font-size: 2.4rem;
+  font-family: "HfMed";
+}
+
+.main-content > h1 > span {
+  color: #43afff;
+}
+
+.image-container {
+  background-image: url("../assets/img/office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgb(170, 167, 167, 0.2);
+}
+
+.secondary-heading {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-section {
+  width: 95%;
+  padding: 0.5rem 0.7rem;
+  margin: 0.75rem auto;
+  background: #fff;
+}
+
+.card-section > h4 {
+  color: #43afff;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 0rem;
+}
+
+.card-section > p {
+  margin-top: 1.5rem;
+}

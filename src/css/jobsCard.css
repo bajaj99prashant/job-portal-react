@@ -1,0 +1,13 @@
+.job-card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.location > span {
+  max-width: 35%;
+}
+
+.location > button {
+  max-width: 65%;
+}

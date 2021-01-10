@@ -1,0 +1,14 @@
+label {
+  width: 100%;
+  font-size: 0.75rem;
+  padding: 4px auto;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+}
+
+textarea::placeholder {
+  font-size: 0.75rem;
+}

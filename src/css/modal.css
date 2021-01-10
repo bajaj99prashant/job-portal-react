@@ -1,0 +1,25 @@
+.modale {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  left: 10%;
+  top: 50%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.modal-close {
+  background: #fff;
+}
+
+@media (min-width: 700px) {
+  .modale {
+    width: 600px;
+    left: calc(50% - 300px);
+  }
+}
